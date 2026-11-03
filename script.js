@@ -1,7 +1,7 @@
 
 let element = document.getElementById("level");
 let count = 0;
-
+let element=element
 while (element !== null) {
     count++;
     element = element.parentElement;
